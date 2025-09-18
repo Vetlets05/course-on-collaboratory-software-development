@@ -68,7 +68,7 @@ jobs:
       #   uv run pytest
       - name: Run root tests
         run: |
-          # TODO: replace with real test command
+          # TODO: replace with real test command 
           uv run pytest
 
   # Secondary job: auto-merge Dependabot PRs after CI passes
